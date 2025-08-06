@@ -1,0 +1,8 @@
+flask
+langgraph
+sentence-transformers
+sqlalchemy
+python-dotenv
+Pillow
+requests
+transformers
