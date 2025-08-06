@@ -1,10 +1,10 @@
-# 🧠 JEE Exam Assistant
+# JEE Exam Assistant
 
 A multi-service AI-powered assistant designed to help students prepare for the **Joint Entrance Examination (JEE)**. This application provides a conversational interface that answers questions related to **Physics**, **Chemistry**, and **Mathematics**, using a Retrieval-Augmented Generation (RAG) system.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Interactive Chat Interface**: A clean, user-friendly web interface for seamless interaction.
 - **Microservices Architecture**: Built with four independent services: `frontend`, `chat`, `vector`, and `ai`, managed via Docker Compose.
@@ -16,7 +16,7 @@ A multi-service AI-powered assistant designed to help students prepare for the *
 
 ---
 
-## 🧰 Technical Stack
+## Technical Stack
 
 | Layer      | Technology                            |
 |------------|----------------------------------------|
@@ -28,7 +28,7 @@ A multi-service AI-powered assistant designed to help students prepare for the *
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The application is divided into four services:
 
@@ -49,16 +49,16 @@ The application is divided into four services:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### ✅ Prerequisites
+### Prerequisites
 
 - Docker and Docker Compose installed
 - A valid **Google Gemini API Key**
 
 ---
 
-### 📦 Setup Instructions
+### Setup Instructions
 
 1. **Clone the repository**
 
@@ -96,7 +96,7 @@ http://localhost:5000
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 project-root/
@@ -113,14 +113,14 @@ project-root/
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Make sure all services are up and running before testing the application.
 - If you encounter issues with `chat` service startup, ensure its SQLite database file has the correct permissions and paths.
 
 ---
 
-## 🛠️ Future Improvements
+## Future Improvements
 
 - Add user authentication
 - Expand knowledge base dynamically
@@ -129,8 +129,6 @@ project-root/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 AYOONA MARIA JOHN
-
-Built with ❤️ to support JEE aspirants.
